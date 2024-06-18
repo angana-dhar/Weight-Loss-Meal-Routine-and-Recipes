@@ -1,24 +1,40 @@
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    background-color: bisque ;
-    background-repeat: no-repeat;
+    /* background-color: bisque ;
+    
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; */
+    
     
 }
 
+
+
 h2 {
-    color: rgb(136, 28, 229);
+    color: rgb(64, 4, 117);
     text-align: center;
+    padding: 1%;
+    margin: 2px;
+    
 }
 
 header {
-    background-color: aquamarine;
-    padding: 1px;;
+    
+    padding: 0;
     margin-top: 0%;
     text-align: left;
+    background-image: url('https://i.pinimg.com/564x/c8/ac/a6/c8aca66f1a5b8bb9cad24a83d74099c2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+
+
+
 
 nav li {
     margin-left: 20px;
@@ -36,34 +52,158 @@ nav a:hover {
 }
 
 
-section {
+  /* section {
     padding: 4em;
     margin: 2px;
     text-align: center;
-    display: inline;
+    display: inline; 
+
+}  */
+/* #meal-routine {
+    padding: 4em;
+    margin: 2px;
+    text-align: center;
+    content: icon;
+    background-image: url('https://i.pinimg.com/736x/60/6a/b8/606ab83b019ed51ebcb29de2083548d4.jpg');
+    background-position: left;
+    text-align: right;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+} */
+#h {
+    background-color: aqua;
+}
+
+p {
+    padding:2px;
+    width: 100%;
+    background-color: orchid;
+    border: #333;
+    margin: 0%;
+    display: flexbox;
 
 }
 
-table {
-    border: 2px;
-    width: 100%;
+#meal-routine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blanchedalmond;
+}
+
+#meal-routine img {
+    width: 30%;
+    margin: 20px;
+}
+
+#meal-routine table {
+    
+    width: 60%;
+    margin: 20px ;
     border-collapse: collapse;
-    border-spacing: 5px;
+    border-spacing: 2px;
+    text-align: right;
+    content: icon;
+    
     
 }
 
-th ,td {
-    border: 2px solid;
-    padding: 0.5em;
+th, td {
+    
+    
     text-align: left;
 }
 
+
 th {
-    background-color: blue;
-    color: rgb(222, 207, 222);
+    background-color: #333;
+    color: #fff;
 }
 
-td {
-    background-color: rgb(156, 226, 226);
+
+#meal-routine h2 {
+    text-align: right;
+    margin-bottom: 10px;
     
+}
+
+
+#recipes {
+    background-image: url(' https://img.freepik.com/free-photo/copy-space-italian-food-ingredients_23-2148551732.jpg');
+    background-color: blanchedalmond;
+    background-size: cover;
+    background-position: center;
+    padding: 4em;
+    margin: 2px;
+    text-align: right;
+}
+
+.image-container1 {
+    width:100%; /* Adjust the width as needed */
+    height: 30em;
+    border: 2px solid #ccc; /* Add a border */
+    padding: 10px; /* Add padding inside the border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    display: flex; /* Use flexbox to arrange children in a row */
+    justify-content: center; /* Center the images horizontally */
+    gap: 40px; /* Add space between the images */
+    
+}
+
+h3 {
+    text-align: center;
+}
+#calculator {
+    background-image: url('https://i.pinimg.com/564x/f2/61/04/f261046bac4d5dd5fd998b737da12ac4.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 4em;
+    margin: 2px;
+    text-align: center;
+
+}
+
+.form-container {
+    background-color: rgb(148, 230, 233);
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+}
+
+
+
+th ,td {
+    border: 2px;
+    padding: 0.5em;
+    text-align: left;
+} 
+
+
+
+#p2 {
+    background-color: #ddd;
+    padding: 0%;
+    margin: 1em;
+    width: 100%;
+    text-decoration: solid;
+}
+
+
+@media (max-width:content) {
+     nav ul {
+        flex-direction: column;
+     }
+
+     nav li {
+        margin-bottom: 10px;
+     }
+}
+
+@media (max-width:480px) {
+    section {
+        padding: 1em;
+    }
 }
